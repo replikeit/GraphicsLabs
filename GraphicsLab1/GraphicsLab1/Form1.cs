@@ -133,9 +133,9 @@ namespace GraphicsLab1
 
         private void RefreshColor()
         {
-            var rgb = ColorsConverter.HLStoRGB(int.Parse(HueCountLabel.Text), 
-                double.Parse(LightCountLabel.Text), 
-                double.Parse(StaturationCountLabel.Text));
+            var rgb = ColorsConverter.XYZtoRGB(double.Parse(XCountLabel.Text), 
+                double.Parse(YCountLabel.Text), 
+                double.Parse(ZCountLabel.Text));
             if (ColorsConverter.RoundingRGB(ref rgb.Item1, ref rgb.Item2, ref rgb.Item3))
                 ColorInfoLabel.Text = $"Цвет округлен({rgb.Item1}, {rgb.Item2}, {rgb.Item3})";
             else
