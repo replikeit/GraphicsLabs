@@ -17,11 +17,9 @@
 </ol>
 </p>
 <h2 id="Result">Результат</h2>
-<p><img src="https://i.ibb.co/ZXD5TLX/image.png" alt=""></p>
+<p><img src="https://i.ibb.co/Z6nHcjR/image.png" alt=""></p>
 <ol>
 <li>Язык C#.</li>
-<li>Цвет задается с помощью ползунков.</li>
-<li>Автоматически пересчитываются остальные цвета.</li>
-<li>Предупреждает о некорректном расчете.</li>
+<li>Информация о изображении выводится с помощью системного класса System.Drawing.Image</li>
 </ol>
 </div>
