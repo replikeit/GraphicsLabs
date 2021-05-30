@@ -16,7 +16,7 @@
 </ol>
 </p>
 <h2 id="Result">Результат</h2>
-<p><img src="https://i.ibb.co/Z6nHcjR/image.png" alt=""></p>
+<p><img src="https://i.ibb.co/803V7Jv/image.png" alt=""></p>
 <ol>
 <li>Язык C#.</li>
 <li>Windows Forms</li>
